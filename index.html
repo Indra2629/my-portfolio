@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Indrajeet Chavan | Portfolio</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <meta name="description" content="Engineering student and developer focused on AI-driven apps, clean UI, and data storytelling. View my projects and experience.">
+  <meta name="description"
+    content="Engineering student and developer focused on AI-driven apps, clean UI, and data storytelling. View my projects and experience.">
   <link rel="stylesheet" href="style.css" />
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <!-- Animation Library -->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
   <!-- Preload critical resources -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
+
 <body>
 
   <!-- ===== Navbar ===== -->
@@ -49,29 +53,30 @@
         <span>Available for opportunities</span>
       </div>
       <h2>Indrajeet Sunil Chavan</h2>
-      <p class="hero-subtitle">Engineering Student • Android & Data Enthusiast • Pune, India</p>
-      <p class="hero-description">Passionate about building AI-driven applications with clean, intuitive interfaces and compelling data visualizations.</p>
+      <p class="hero-subtitle">Java Backend Developer • Spring Boot & API Enthusiast • Pune, Maharashtra</p>
+      <p class="hero-description">Computer Science student seeking a Java Backend Internship. Actively learning Java,
+        data structures, and backend development to build scalable, real-world applications and APIs.</p>
       <div class="hero-buttons">
         <a href="#projects" class="btn">
           <i class="fas fa-rocket"></i>
           View Projects
-        <a href="assets/resumeindra.pdf" download class="btn secondary">
-  <i class="fa-solid fa-download"></i>
-  Download Resume
-</a>
+          <a href="assets/resumeindra.pdf" download class="btn secondary">
+            <i class="fa-solid fa-download"></i>
+            Download Resume
+          </a>
 
       </div>
       <div class="hero-stats">
         <div class="stat">
-          <span class="stat-number">3+</span>
+          <span class="stat-number">7</span>
           <span class="stat-label">Projects</span>
         </div>
         <div class="stat">
-          <span class="stat-number">2</span>
+          <span class="stat-number">12</span>
           <span class="stat-label">Certifications</span>
         </div>
         <div class="stat">
-          <span class="stat-number">8</span>
+          <span class="stat-number">25+</span>
           <span class="stat-label">Skills</span>
         </div>
       </div>
@@ -86,39 +91,94 @@
     <div class="container" data-aos="fade-right">
       <h2>About Me</h2>
       <div class="about-content">
-        <div class="about-text">
-          <p>I'm an engineering student focused on AI-driven apps, clean UI, and data storytelling. I enjoy building practical tools that feel delightful to use. Currently exploring advanced algorithms, Android app patterns, and production-style dashboards.</p>
-          <p>My passion lies in creating solutions that bridge the gap between complex technology and user-friendly experiences. I believe in writing clean, maintainable code and designing interfaces that users love to interact with.</p>
+        <div class="about-text" data-aos="fade-right">
+          <p>Computer Science student seeking a Java Backend Internship. Actively learning Java, data structures, and
+            backend development to build scalable, real-world applications and APIs.</p>
+          <p>I focus on writing clean, efficient code and understanding the core principles of software engineering. My
+            goal is to contribute to impactful projects while continuously growing my technical skills in the Java
+            ecosystem.</p>
         </div>
-        <div class="about-highlights">
+        <div class="about-highlights" data-aos="fade-left">
+          <div class="highlight">
+            <i class="fas fa-server"></i>
+            <h3>Backend Development</h3>
+            <p>Building secure and scalable APIs with Java & Spring Boot</p>
+          </div>
+          <div class="highlight">
+            <i class="fas fa-database"></i>
+            <h3>Database Management</h3>
+            <p>Efficient data modeling with MySQL & Hibernate</p>
+          </div>
           <div class="highlight">
             <i class="fas fa-code"></i>
-            <h3>Web Development</h3>
-            <p>Responsive and dynamic websites with seamless backend</p>
-          </div>
-          <div class="highlight">
-            <i class="fas fa-mobile-alt"></i>
-            <h3>Mobile Development</h3>
-            <p>Android apps with modern UI/UX patterns</p>
-          </div>
-          <div class="highlight">
-            <i class="fas fa-chart-line"></i>
-            <h3>Data Analytics</h3>
-            <p>Data visualization and predictive modeling</p>
+            <h3>Problem Solving</h3>
+            <p>Strong grasp of DSA & OOP principles</p>
           </div>
         </div>
       </div>
+
+      <!-- Education Section -->
+      <div class="education" style="margin-top: 3rem;">
+        <h3>Education</h3>
+        <div class="education-card"
+          style="background: var(--card-bg); padding: 1.5rem; border-radius: 10px; border: 1px solid var(--border-color); margin-top: 1rem;">
+          <div
+            style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <h4 style="color: var(--primary-color); font-size: 1.2rem; margin-bottom: 0.5rem;">Bachelor of Technology
+                – Computer Science</h4>
+              <p style="color: var(--text-color); margin-bottom: 0.25rem;">Vishwakarma University, Pune</p>
+              <p style="color: var(--text-muted); font-size: 0.9rem;">2025 – Present</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="skills">
-        <h3>Technical Skills</h3>
-        <div class="skills-grid">
+        <h3 style="text-align: left; margin-bottom: 1rem; font-size: 1.2rem; color: #60a5fa;" data-aos="fade-up">Backend
+          & CS Fundamentals</h3>
+        <div class="skills-grid" style="justify-content: flex-start; margin-bottom: 2rem;" data-aos="fade-up"
+          data-aos-delay="100">
+          <span class="skill-tag">Data Structures & Algorithms</span>
+          <span class="skill-tag">OOP</span>
+          <span class="skill-tag">Database Design</span>
+          <span class="skill-tag">Authentication</span>
+          <span class="skill-tag">API Development</span>
+        </div>
+
+        <h3 style="text-align: left; margin-bottom: 1rem; font-size: 1.2rem; color: #60a5fa;" data-aos="fade-up">
+          Programming Languages</h3>
+        <div class="skills-grid" style="justify-content: flex-start; margin-bottom: 2rem;" data-aos="fade-up"
+          data-aos-delay="200">
+          <span class="skill-tag">Java</span>
           <span class="skill-tag">Python</span>
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">SQL</span>
+        </div>
+
+        <h3 style="text-align: left; margin-bottom: 1rem; font-size: 1.2rem; color: #60a5fa;" data-aos="fade-up">Web
+          Technologies</h3>
+        <div class="skills-grid" style="justify-content: flex-start; margin-bottom: 2rem;" data-aos="fade-up"
+          data-aos-delay="300">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
           <span class="skill-tag">JavaScript</span>
-          <span class="skill-tag">C++</span>
-          <span class="skill-tag">Power BI</span>
-          <span class="skill-tag">Pandas</span>
-          <span class="skill-tag">NumPy</span>
-          <span class="skill-tag">Android</span>
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">JSON</span>
+        </div>
+
+        <h3 style="text-align: left; margin-bottom: 1rem; font-size: 1.2rem; color: #60a5fa;" data-aos="fade-up">Tools &
+          Frameworks</h3>
+        <div class="skills-grid" style="justify-content: flex-start;" data-aos="fade-up" data-aos-delay="400">
+          <span class="skill-tag">Spring Boot</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">Hibernate (JPA)</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">Postman</span>
           <span class="skill-tag">Firebase</span>
+          <span class="skill-tag">Room DB</span>
+          <span class="skill-tag">Android Studio</span>
         </div>
       </div>
     </div>
@@ -129,70 +189,180 @@
     <div class="container" data-aos="fade-up">
       <h2>Featured Projects</h2>
       <p class="section-subtitle">A showcase of my recent work and technical capabilities</p>
-      <div class="project-grid">
-        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="project-image">
-            <img src="https://images.unsplash.com/photo-1529694157871-0e7b1dbb1f5c" alt="Chess AI">
-            <div class="project-overlay">
-              <div class="project-links">
-                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Project 1: User Authentication & Profile API -->
+          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img src="images/user_auth_api.png" alt="User Authentication API">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>User Authentication & Profile API</h3>
+              <p>Secure backend with user signup, login, password encryption, and JWT authentication. Get & update
+                profile.</p>
+              <div class="project-tech">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>MySQL</span>
+                <span>JPA</span>
+                <span>JWT</span>
               </div>
             </div>
           </div>
-          <div class="project-content">
-            <h3>Chess AI (DLS)</h3>
-            <p>Depth-Limited Search chess engine with interactive board, move visualization, and pause/step-through controls.</p>
-            <div class="project-tech">
-              <span>Python</span>
-              <span>Algorithm</span>
-              <span>GUI</span>
+
+          <!-- Project 2: E-Commerce Backend API -->
+          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-image">
+              <img src="images/ecommerce_backend.png" alt="E-Commerce Backend">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        
-        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="project-image">
-            <img src="https://images.unsplash.com/photo-1516637090014-cb1ab0d08fc7" alt="N-Puzzle">
-            <div class="project-overlay">
-              <div class="project-links">
-                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+            <div class="project-content">
+              <h3>E-Commerce Backend API</h3>
+              <p>Scalable API for users, products, carts, orders, and admin panel. Supports order history and complex
+                logic.</p>
+              <div class="project-tech">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>MySQL</span>
+                <span>REST</span>
               </div>
             </div>
           </div>
-          <div class="project-content">
-            <h3>N-Puzzle Solver (DFS)</h3>
-            <p>DFS-based solver with clean GUI, initial config input, and animated solving path.</p>
-            <div class="project-tech">
-              <span>C++</span>
-              <span>DFS</span>
-              <span>GUI</span>
+
+          <!-- Project 3: Job Portal Backend -->
+          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-image">
+              <img src="images/job_portal_api.png" alt="Job Portal Backend">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        
-        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="project-image">
-            <img src="https://images.unsplash.com/photo-1526378722484-b1b1f7ec8f54" alt="Predictive Analytics">
-            <div class="project-overlay">
-              <div class="project-links">
-                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+            <div class="project-content">
+              <h3>Job Portal Backend (Mini LinkedIn)</h3>
+              <p>Recruitment platform API for job posting, applications, saving jobs, and admin dashboard.</p>
+              <div class="project-tech">
+                <span>Spring Boot</span>
+                <span>MySQL</span>
+                <span>JPA</span>
+                <span>REST API</span>
               </div>
             </div>
           </div>
-          <div class="project-content">
-            <h3>Predictive Analytics</h3>
-            <p>Trends forecasting with UML models and a prioritization engine for software requirements.</p>
-            <div class="project-tech">
-              <span>Python</span>
-              <span>ML</span>
-              <span>UML</span>
+
+          <!-- Project 4: Bus Booking App -->
+          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="project-image">
+              <img src="images/bus_booking.png" alt="Bus Booking App">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Bus Booking App</h3>
+              <p>Android app for booking bus tickets with seat selection map and history. Features secure login and
+                real-time data.</p>
+              <div class="project-tech">
+                <span>Java</span>
+                <span>Firebase</span>
+                <span>Room DB</span>
+                <span>Material UI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Freshee Cart -->
+          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="project-image">
+              <img src="images/freshee_cart.png" alt="Freshee Cart">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/Indra2629/Freshee-Cart-" target="_blank" class="project-link"><i
+                      class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Freshee Cart</h3>
+              <p>Student-centric e-commerce platform for electronics and footwear. Modern dark-themed UI with cart
+                management.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: InventoryPro -->
+          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="600">
+            <div class="project-image">
+              <img src="images/inventory_pro.png" alt="InventoryPro">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/Indra2629/InventoryPro" target="_blank" class="project-link"><i
+                      class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>InventoryPro</h3>
+              <p>Web-based inventory system to track products and sales. Includes dashboards, low-stock alerts, and
+                reports.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>GitHub Pages</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 7: Criminal Detection App -->
+          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="700">
+            <div class="project-image">
+              <img src="images/criminal_detection.png" alt="Criminal Detection App">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Criminal Detection App</h3>
+              <p>Face detection app comparing scan data with criminal databases. Built with Java and JSON data handling.
+              </p>
+              <div class="project-tech">
+                <span>Java</span>
+                <span>Firebase</span>
+                <span>JSON</span>
+                <span>Face API</span>
+              </div>
             </div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
+
+      <!-- View All Button Container -->
+      <div class="view-all-container" data-aos="fade-up">
+        <button id="view-all-btn" class="btn-primary">View All Projects</button>
+      </div>
+
+      <!-- Hidden Grid Container for Toggle -->
+      <div id="projects-grid" class="projects-grid-view" style="display: none;"></div>
     </div>
   </section>
 
@@ -203,30 +373,121 @@
       <p class="section-subtitle">Professional certifications and achievements</p>
       <div class="cert-grid">
         <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="cert-image">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="Google Data Analytics">
-            <div class="cert-badge">
-              <i class="fas fa-certificate"></i>
-            </div>
-          </div>
+          <i class="fas fa-certificate cert-icon"></i>
           <div class="cert-content">
-            <h3>Google Data Analytics</h3>
-            <p class="cert-issuer">Coursera • 2024</p>
-            <p class="cert-description">Comprehensive data analysis and visualization skills</p>
+            <h3>Bug Bounty Bootcamp</h3>
+            <p class="cert-issuer">Vishwakarma University • 2025</p>
           </div>
         </div>
-        
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="cert-image">
-            <img src="https://images.unsplash.com/photo-1551854838-212c50b4c184" alt="Android Basics">
-            <div class="cert-badge">
-              <i class="fas fa-certificate"></i>
-            </div>
-          </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="150">
+          <i class="fas fa-certificate cert-icon"></i>
           <div class="cert-content">
-            <h3>Android Basics</h3>
-            <p class="cert-issuer">Google • 2024</p>
-            <p class="cert-description">Mobile app development fundamentals</p>
+            <h3>Green Skills & AI</h3>
+            <p class="cert-issuer">Edunet / AICTE / Shell • 2025</p>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-certificate cert-icon"></i>
+          <div class="cert-content">
+            <h3>Online Communication & Data Security</h3>
+            <p class="cert-issuer">Wadhwani Foundation • 2025</p>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="250">
+          <i class="fas fa-certificate cert-icon"></i>
+          <div class="cert-content">
+            <h3>Android Basics in Kotlin</h3>
+            <p class="cert-issuer">Google / Udacity</p>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-certificate cert-icon"></i>
+          <div class="cert-content">
+            <h3>JavaScript for Beginners</h3>
+            <p class="cert-issuer">Simplilearn</p>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="350">
+          <i class="fas fa-certificate cert-icon"></i>
+          <div class="cert-content">
+            <h3>MATLAB Onramp</h3>
+            <p class="cert-issuer">MathWorks</p>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="400">
+          <i class="fas fa-certificate cert-icon"></i>
+          <div class="cert-content">
+            <h3>Firebase in a Weekend</h3>
+            <p class="cert-issuer">Coursera</p>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="450">
+          <i class="fas fa-certificate cert-icon"></i>
+          <div class="cert-content">
+            <h3>IT Fundamentals for Cybersecurity</h3>
+            <p class="cert-issuer">IBM</p>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="500">
+          <i class="fas fa-certificate cert-icon"></i>
+          <div class="cert-content">
+            <h3>Fundamentals of Computer Network Security</h3>
+            <p class="cert-issuer">University of Colorado System</p>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="550">
+          <i class="fas fa-certificate cert-icon"></i>
+          <div class="cert-content">
+            <h3>Introduction to Cybersecurity Tools & Cyberattacks</h3>
+            <p class="cert-issuer">IBM</p>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="600">
+          <i class="fas fa-certificate cert-icon"></i>
+          <div class="cert-content">
+            <h3>Encryption and Decryption using C++</h3>
+            <p class="cert-issuer">Coursera Project Network</p>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="650">
+          <i class="fas fa-certificate cert-icon"></i>
+          <div class="cert-content">
+            <h3>How to Secure your Network Device</h3>
+            <p class="cert-issuer">Coursera Project Network</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Achievements ===== -->
+  <section id="achievements" class="achievements">
+    <div class="container" data-aos="fade-up">
+      <h2>Achievements</h2>
+      <p class="section-subtitle">Key milestones and recognitions</p>
+
+      <div class="achievement-grid">
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-scroll"></i>
+          </div>
+          <div>
+            <h3>Research Paper Presentation</h3>
+            <p class="achievement-meta">14th National Conference 2024</p>
+            <p>Presented "Transforming education institute admission and placement using artificial intelligence for
+              enhanced reputation".</p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div>
+            <h3>Capstone Project</h3>
+            <p class="achievement-meta">Top 5 Finalist</p>
+            <p>Selected as one of the top 5 finalists for the innovative specialized capstone project at Vishwakarma
+              University.</p>
           </div>
         </div>
       </div>
@@ -236,39 +497,29 @@
   <!-- ===== Contact ===== -->
   <section id="contact" class="contact">
     <div class="container" data-aos="fade-up">
-      <h2>Get In Touch</h2>
-      <p class="section-subtitle">Let's discuss opportunities and collaborations</p>
-      <div class="contact-content">
-        <div class="contact-info">
-          <div class="contact-item">
-            <i class="fas fa-envelope"></i>
-            <div>
-              <h3>Email</h3>
-              <a href="mailto:indrajeetchavan137@gmail.com">indrajeetchavan137@gmail.com</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <i class="fab fa-linkedin"></i>
-            <div>
-              <h3>LinkedIn</h3>
-              <a href="https://www.linkedin.com/in/indra2629" target="_blank">linkedin.com/in/indrachavan</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <i class="fas fa-map-marker-alt"></i>
-            <div>
-              <h3>Location</h3>
-              <p>Pune, Maharashtra, India</p>
-            </div>
-          </div>
-        </div>
-        <div class="contact-cta">
-          <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology and innovation.</p>
-          <a href="mailto:indrajeetchavan137@vupune.ac.in" class="btn contact-btn">
-            <i class="fas fa-paper-plane"></i>
-            Send Message
-          </a>
-        </div>
+      <h2>Contact Me</h2>
+      <p class="section-subtitle">Reach out via</p>
+
+      <div class="social-grid">
+        <!-- Email (Red) -->
+        <a href="mailto:indrajeetchavan137@gmail.com" class="social-box email">
+          <i class="fas fa-envelope"></i>
+        </a>
+
+        <!-- LinkedIn (Blue) -->
+        <a href="https://www.linkedin.com/in/indrachavan" target="_blank" class="social-box linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <!-- GitHub (White) -->
+        <a href="https://github.com" target="_blank" class="social-box github">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <!-- WhatsApp (Green) -->
+        <a href="https://wa.me/919325204304" target="_blank" class="social-box whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
       </div>
     </div>
   </section>
@@ -289,5 +540,132 @@
 
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    AOS.init();
+
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      speed: 1000,
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      on: {
+        click: function (swiper, event) {
+          const clickedSlide = swiper.clickedSlide;
+          if (!clickedSlide) return;
+
+          // Check if the click was on a link icon directly - let it handle itself
+          if (event.target.closest('.project-link')) return;
+
+          // Otherwise, find the link inside the slide and trigger it
+          const link = clickedSlide.querySelector('.project-link');
+          if (link) {
+            const href = link.getAttribute('href');
+            if (href && href !== "#" && href !== "") {
+              window.open(href, '_blank');
+            } else {
+              // We need to trigger the toast. Accessing the function from global scope might need care.
+              // Since showToast is inside DOMContentLoaded, we should expose it or redefine logic.
+              // For simplicity, we'll dispatch a custom event or just look for the toast function if global.
+              // Actually, simplest is to replicate the toast logic here or make showToast global.
+              const toast = document.getElementById("toast");
+              if (toast) {
+                toast.innerText = "🚧 Project Coming Soon! Work in Progress.";
+                toast.className = "show";
+                setTimeout(function () { toast.className = toast.className.replace("show", ""); }, 3000);
+              }
+            }
+          }
+        },
+      }
+    });
+
+    // View All Projects Toggle Logic
+    const viewAllBtn = document.getElementById('view-all-btn');
+    const swiperContainer = document.querySelector('.mySwiper');
+    const projectsGrid = document.getElementById('projects-grid');
+    let isGridView = false;
+
+    viewAllBtn.addEventListener('click', () => {
+      isGridView = !isGridView;
+
+      if (isGridView) {
+        // Switch to Grid View
+        swiperContainer.style.display = 'none';
+        projectsGrid.style.display = 'grid';
+        viewAllBtn.textContent = 'View Slider';
+
+        // Clone slides if not already populated
+        if (projectsGrid.children.length === 0) {
+          const slides = document.querySelectorAll('.swiper-slide');
+          slides.forEach(slide => {
+            // Clone the card
+            const clone = slide.cloneNode(true);
+            // Remove Swiper specific classes and styles
+            clone.classList.remove('swiper-slide', 'swiper-slide-active', 'swiper-slide-next', 'swiper-slide-prev', 'swiper-slide-visible');
+            clone.style.width = '';
+            clone.style.transform = '';
+            clone.style.transition = '';
+            projectsGrid.appendChild(clone);
+          });
+        }
+      } else {
+        // Switch back to Slider View
+        swiperContainer.style.display = 'block';
+        projectsGrid.style.display = 'none';
+        viewAllBtn.textContent = 'View All Projects';
+        // Re-initialize or update swiper if needed (often auto-handled)
+        swiper.update();
+      }
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Toast Notification Logic
+      const toast = document.getElementById("toast");
+
+      function showToast(message) {
+        toast.innerText = message;
+        toast.className = "show";
+        setTimeout(function () { toast.className = toast.className.replace("show", ""); }, 3000);
+      }
+
+      // Add click event to all 'Coming Soon' links
+      const projectLinks = document.querySelectorAll('.project-link');
+      projectLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+          if (this.getAttribute('href') === "#" || this.getAttribute('href') === "") {
+            e.preventDefault();
+            showToast("🚧 Project Coming Soon! Work in Progress.");
+          }
+        });
+      });
+
+
+    });
+  </script>
+
+  <!-- Toast Notification Structure -->
+  <div id="toast">🚧 Project Coming Soon! Work in Progress.</div>
 </body>
+
 </html>
