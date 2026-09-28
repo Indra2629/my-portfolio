@@ -1,676 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Indrajeet Chavan | Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <meta name="description"
-    content="Engineering student and developer focused on AI-driven apps, clean UI, and data storytelling. View my projects and experience.">
+  <meta name="description" content="Indrajeet Chavan is an aspiring data engineer focused on Python, SQL, analytics, and reliable data pipelines." />
+  <meta name="theme-color" content="#0b1120" />
+  <title>Indrajeet Chavan | Data Engineering Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
   <link rel="stylesheet" href="style.css" />
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <!-- Animation Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
-  <!-- Preload critical resources -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 </head>
-
 <body>
-
-  <!-- ===== Navbar ===== -->
   <header>
     <div class="container nav">
-      <h1 class="logo">Portfolio</h1>
-      <nav>
+      <a class="logo" href="#home" aria-label="Indrajeet Chavan home">ISC</a>
+      <nav aria-label="Main navigation">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#certs">Certifications</a></li>
+          <li><a href="#achievements">Achievements</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- ===== Home ===== -->
-  <section id="home" class="hero">
-    <div class="hero-background">
-      <div class="floating-shapes">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
-      </div>
-    </div>
-    <div class="container hero-content" data-aos="fade-up">
-      <div class="hero-badge">
-        <i class="fas fa-code"></i>
-        <br>
-        <span>Available for opportunities</span>
-      </div>
-      <h2>Indrajeet Sunil Chavan</h2>
-      <p class="hero-subtitle">Java Backend Developer • Spring Boot & API Enthusiast • Pune, Maharashtra</p>
-      <p class="hero-description">Computer Science student seeking a Java Backend Internship. Actively learning Java,
-        data structures, and backend development to build scalable, real-world applications and APIs.</p>
-      <div class="hero-buttons">
-        <a href="#projects" class="btn">
-          <i class="fas fa-rocket"></i>
-          View Projects
-          <a href="assets/resumeindra.pdf" download class="btn secondary">
-            <i class="fa-solid fa-download"></i>
-            Download Resume
-          </a>
-
-      </div>
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-number">7</span>
-          <span class="stat-label">Projects</span>
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content" data-aos="fade-up">
+        <div class="hero-badge"><i class="fas fa-database" aria-hidden="true"></i><span>Aspiring Data Engineer</span></div>
+        <h2>Indrajeet S. Chavan</h2>
+        <p class="hero-subtitle">Python &amp; SQL | Data Engineering | Analytics</p>
+        <p class="hero-description">I build data pipelines that turn raw data into reliable, analytics-ready datasets. Currently pursuing a B.Tech in Computer Science and Engineering at Vishwakarma University, Pune.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn"><i class="fas fa-arrow-down" aria-hidden="true"></i>Explore Projects</a>
+          <a href="assets/resumeindra.pdf" download class="btn secondary"><i class="fa-solid fa-download" aria-hidden="true"></i>Download Resume</a>
         </div>
-        <div class="stat">
-          <span class="stat-number">12</span>
-          <span class="stat-label">Certifications</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number">25+</span>
-          <span class="stat-label">Skills</span>
+        <div class="hero-stats" aria-label="Portfolio summary">
+          <div class="stat"><span class="stat-number">03</span><span class="stat-label">Data Projects</span></div>
+          <div class="stat"><span class="stat-number">2026</span><span class="stat-label">Graduation</span></div>
+          <div class="stat"><span class="stat-number">Python</span><span class="stat-label">Core Language</span></div>
         </div>
       </div>
-    </div>
-    <div class="scroll-indicator">
-      <div class="scroll-arrow"></div>
-    </div>
-  </section>
+      <div class="scroll-indicator" aria-hidden="true"><div class="scroll-arrow"></div></div>
+    </section>
 
-  <!-- ===== About ===== -->
-  <section id="about" class="about">
-    <div class="container" data-aos="fade-right">
-      <h2>About Me</h2>
-      <div class="about-content">
-        <div class="about-text" data-aos="fade-right">
-          <p>Computer Science student seeking a Java Backend Internship. Actively learning Java, data structures, and
-            backend development to build scalable, real-world applications and APIs.</p>
-          <p>I focus on writing clean, efficient code and understanding the core principles of software engineering. My
-            goal is to contribute to impactful projects while continuously growing my technical skills in the Java
-            ecosystem.</p>
-        </div>
-        <div class="about-highlights" data-aos="fade-left">
-          <div class="highlight">
-            <i class="fas fa-laptop-code"></i>
-            <h3>Frontend Development</h3>
-            <p>Responsive UIs with HTML5, CSS3, JavaScript & React</p>
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I am a computer science student building a foundation in data engineering, analytics, and machine learning. My work focuses on extracting, cleaning, validating, and modeling data so it can support useful analysis.</p>
+            <p>I enjoy learning by building end-to-end projects with Python, SQL, orchestration tools, and modern data platforms.</p>
           </div>
-          <div class="highlight">
-            <i class="fas fa-server"></i>
-            <h3>Backend Development</h3>
-            <p>Building secure and scalable APIs with Java & Spring Boot</p>
-          </div>
-          <div class="highlight">
-            <i class="fas fa-database"></i>
-            <h3>Database Management</h3>
-            <p>Efficient data modeling with MySQL & Hibernate</p>
-          </div>
-          <div class="highlight">
-            <i class="fas fa-code"></i>
-            <h3>Problem Solving</h3>
-            <p>Strong grasp of DSA & OOP principles</p>
+          <div class="about-highlights">
+            <article class="highlight"><i class="fas fa-diagram-project" aria-hidden="true"></i><h3>Data Pipelines</h3><p>ETL and ELT workflows, transformations, validation, and orchestration.</p></article>
+            <article class="highlight"><i class="fas fa-chart-line" aria-hidden="true"></i><h3>Analytics</h3><p>SQL analysis, dimensional data marts, and clear reporting datasets.</p></article>
+            <article class="highlight"><i class="fas fa-cloud" aria-hidden="true"></i><h3>Data Platforms</h3><p>Exploring Snowflake, AWS, Azure, Databricks, and containerized workflows.</p></article>
           </div>
         </div>
-      </div>
 
-      <!-- Education Section -->
-      <div class="education" style="margin-top: 3rem;">
-        <h3>Education</h3>
-        <div class="education-card"
-          style="background: var(--card-bg); padding: 1.5rem; border-radius: 10px; border: 1px solid var(--border-color); margin-top: 1rem;">
-          <div
-            style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
-            <div>
-              <h4 style="color: var(--primary-color); font-size: 1.2rem; margin-bottom: 0.5rem;">Bachelor of Technology
-                – Computer Science</h4>
-              <p style="color: var(--text-color); margin-bottom: 0.25rem;">Vishwakarma University, Pune</p>
-              <p style="color: var(--text-muted); font-size: 0.9rem;">2025 – Present</p>
-            </div>
+        <div class="education" style="margin-top: 3rem;">
+          <h3>Education</h3>
+          <div class="education-card">
+            <h4>Bachelor of Technology in Computer Science and Engineering</h4>
+            <p>Vishwakarma University, Pune, Maharashtra</p>
+            <p class="education-meta">August 2022 – May 2026</p>
+            <p>Relevant coursework: Database Management Systems, Cloud Computing, Operating Systems, and Machine Learning Fundamentals.</p>
           </div>
+        </div>
+
+        <div class="skills">
+          <h3>Technical Skills</h3>
+          <h4>Programming &amp; Databases</h4>
+          <div class="skills-grid"><span class="skill-tag">Python</span><span class="skill-tag">SQL</span><span class="skill-tag">MySQL</span><span class="skill-tag">MongoDB</span><span class="skill-tag">DBMS</span><span class="skill-tag">Database Design</span><span class="skill-tag">REST APIs</span></div>
+          <h4>Data Analysis</h4>
+          <div class="skills-grid"><span class="skill-tag">Pandas</span><span class="skill-tag">NumPy</span><span class="skill-tag">Matplotlib</span><span class="skill-tag">Seaborn</span><span class="skill-tag">Exploratory Data Analysis</span><span class="skill-tag">Data Cleaning</span></div>
+          <h4>Data Engineering</h4>
+          <div class="skills-grid"><span class="skill-tag">ETL Fundamentals</span><span class="skill-tag">Data Transformation</span><span class="skill-tag">Data Validation</span><span class="skill-tag">Data Pipelines</span><span class="skill-tag">Apache Kafka</span><span class="skill-tag">PySpark</span><span class="skill-tag">Apache Airflow</span><span class="skill-tag">dbt</span><span class="skill-tag">Snowflake</span><span class="skill-tag">PostgreSQL</span><span class="skill-tag">Docker</span></div>
+          <h4>Tools, Cloud &amp; Machine Learning</h4>
+          <div class="skills-grid"><span class="skill-tag">Git</span><span class="skill-tag">GitHub</span><span class="skill-tag">Linux</span><span class="skill-tag">AWS</span><span class="skill-tag">Azure</span><span class="skill-tag">Jupyter Notebook</span><span class="skill-tag">Google Colab</span><span class="skill-tag">Conda</span><span class="skill-tag">Power BI</span><span class="skill-tag">Scikit-learn</span><span class="skill-tag">Neural Networks</span><span class="skill-tag">LLMs &amp; RAG</span></div>
         </div>
       </div>
+    </section>
 
-      <div class="skills">
-        <h3 style="text-align: left; margin-bottom: 1rem; font-size: 1.2rem; color: #60a5fa;" data-aos="fade-up">Backend
-          & CS Fundamentals</h3>
-        <div class="skills-grid" style="justify-content: flex-start; margin-bottom: 2rem;" data-aos="fade-up"
-          data-aos-delay="100">
-          <span class="skill-tag">Data Structures & Algorithms</span>
-          <span class="skill-tag">OOP</span>
-          <span class="skill-tag">Database Design</span>
-          <span class="skill-tag">Authentication</span>
-          <span class="skill-tag">API Development</span>
+    <section id="projects" class="projects">
+      <div class="container" data-aos="fade-up">
+        <h2>Data Engineering Projects</h2>
+        <p class="section-subtitle">Selected projects in streaming, warehouse modeling, and analytics pipelines.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art"><i class="fas fa-tower-broadcast" aria-hidden="true"></i><span>01 / STREAMING</span></div>
+            <div class="project-content"><p class="project-kicker">Real-Time Data Engineering Pipeline · 2026</p><h3>Real-Time Data Engineering Pipeline</h3><p>Built an end-to-end streaming pipeline that ingests events with Kafka, processes them with PySpark, validates and transforms the data, and loads structured datasets into PostgreSQL. Airflow orchestrates workflows; Docker Compose runs the services.</p><div class="project-tech"><span>Python</span><span>Kafka</span><span>PySpark</span><span>PostgreSQL</span><span>Airflow</span><span>Docker</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art"><i class="fas fa-warehouse" aria-hidden="true"></i><span>02 / ANALYTICS</span></div>
+            <div class="project-content"><p class="project-kicker">Sales Data Warehouse &amp; ELT Pipeline · 2026</p><h3>Sales Data Warehouse &amp; ELT Pipeline</h3><p>Designed an ELT pipeline for customer, product, order, and sales data in Snowflake. Built SQL and dbt transformation models and dimensional marts for reporting, with Airflow automation and a Docker-based development environment.</p><div class="project-tech"><span>Python</span><span>SQL</span><span>Snowflake</span><span>dbt</span><span>Airflow</span><span>Docker</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art"><i class="fas fa-filter-circle-dollar" aria-hidden="true"></i><span>03 / ETL &amp; SQL</span></div>
+            <div class="project-content"><p class="project-kicker">ETL Data Pipeline &amp; SQL Analytics · 2026</p><h3>ETL Data Pipeline &amp; SQL Analytics</h3><p>Automated extraction, cleaning, and transformation with Python and Pandas before loading data into PostgreSQL. Used joins, CTEs, subqueries, aggregations, and window functions to generate analytical insights, with validation checks and Airflow scheduling.</p><div class="project-tech"><span>Python</span><span>Pandas</span><span>PostgreSQL</span><span>SQL</span><span>Airflow</span></div></div>
+          </article>
         </div>
+        <p class="future-note"><i class="fas fa-circle-plus" aria-hidden="true"></i> More projects will be added here.</p>
+      </div>
+    </section>
 
-        <h3 style="text-align: left; margin-bottom: 1rem; font-size: 1.2rem; color: #60a5fa;" data-aos="fade-up">
-          Programming Languages</h3>
-        <div class="skills-grid" style="justify-content: flex-start; margin-bottom: 2rem;" data-aos="fade-up"
-          data-aos-delay="200">
-          <span class="skill-tag">Java</span>
-          <span class="skill-tag">Python</span>
-          <span class="skill-tag">C</span>
-          <span class="skill-tag">SQL</span>
+    <section id="certs" class="certs">
+      <div class="container" data-aos="fade-up">
+        <h2>Certifications</h2>
+        <p class="section-subtitle">Selected certifications listed on my resume.</p>
+        <div class="cert-grid">
+          <article class="cert-card"><i class="fas fa-certificate cert-icon" aria-hidden="true"></i><div class="cert-content"><h3>Databricks Fundamentals Accreditation</h3><p class="cert-issuer">Databricks</p></div></article>
+          <article class="cert-card"><i class="fas fa-certificate cert-icon" aria-hidden="true"></i><div class="cert-content"><h3>SQL (Basic) Skill Certification</h3><p class="cert-issuer">HackerRank</p></div></article>
+          <article class="cert-card"><i class="fas fa-certificate cert-icon" aria-hidden="true"></i><div class="cert-content"><h3>Data Fundamentals</h3><p class="cert-issuer">IBM SkillsBuild</p></div></article>
+          <article class="cert-card"><i class="fas fa-certificate cert-icon" aria-hidden="true"></i><div class="cert-content"><h3>Oracle Cloud Infrastructure Foundation Certification</h3><p class="cert-issuer">Oracle</p></div></article>
         </div>
+        <p class="future-note"><i class="fas fa-circle-plus" aria-hidden="true"></i> More certifications will be added here.</p>
+      </div>
+    </section>
 
-        <h3 style="text-align: left; margin-bottom: 1rem; font-size: 1.2rem; color: #60a5fa;" data-aos="fade-up">Web
-          Technologies</h3>
-        <div class="skills-grid" style="justify-content: flex-start; margin-bottom: 2rem;" data-aos="fade-up"
-          data-aos-delay="300">
-          <span class="skill-tag">HTML</span>
-          <span class="skill-tag">CSS</span>
-          <span class="skill-tag">JavaScript</span>
-          <span class="skill-tag">REST APIs</span>
-          <span class="skill-tag">JSON</span>
-        </div>
-
-        <h3 style="text-align: left; margin-bottom: 1rem; font-size: 1.2rem; color: #60a5fa;" data-aos="fade-up">Tools &
-          Frameworks</h3>
-        <div class="skills-grid" style="justify-content: flex-start;" data-aos="fade-up" data-aos-delay="400">
-          <span class="skill-tag">Spring Boot</span>
-          <span class="skill-tag">MySQL</span>
-          <span class="skill-tag">Hibernate (JPA)</span>
-          <span class="skill-tag">Git</span>
-          <span class="skill-tag">GitHub</span>
-          <span class="skill-tag">Postman</span>
-          <span class="skill-tag">Firebase</span>
-          <span class="skill-tag">Room DB</span>
-          <span class="skill-tag">Android Studio</span>
+    <section id="achievements" class="achievements">
+      <div class="container" data-aos="fade-up">
+        <h2>Achievements</h2>
+        <div class="achievement-grid">
+          <article class="achievement-card"><div class="achievement-icon"><i class="fas fa-trophy" aria-hidden="true"></i></div><div><h3>Smart India Hackathon 2025</h3><p class="achievement-meta">Cleared the first round</p><p>Presented a technology-driven solution to a real-world problem as part of a university team.</p></div></article>
+          <article class="achievement-card"><div class="achievement-icon"><i class="fas fa-scroll" aria-hidden="true"></i></div><div><h3>Research Paper Presentation</h3><p class="achievement-meta">14th National Conference, AIMS Baramati · 2024</p><p>Presented research on AI-based admission and placement systems.</p></div></article>
+          <article class="achievement-card"><div class="achievement-icon"><i class="fas fa-chart-column" aria-hidden="true"></i></div><div><h3>Capstone Seminar</h3><p class="achievement-meta">Vishwakarma University</p><p>Presented “Enhancing College Reputation through Personalized Admissions Using BI,” with a Power BI-based analytics solution.</p></div></article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== Projects ===== -->
-  <section id="projects" class="projects">
-    <div class="container" data-aos="fade-up">
-      <h2>Featured Projects</h2>
-      <p class="section-subtitle">A showcase of my recent work and technical capabilities</p>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <!-- Project 1: User Authentication & Profile API -->
-          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="100">
-            <div class="project-image">
-              <img src="images/user_auth_api.png" alt="User Authentication API">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="project-content">
-              <h3>User Authentication & Profile API</h3>
-              <p>Secure backend with user signup, login, password encryption, and JWT authentication. Get & update
-                profile.</p>
-              <div class="project-tech">
-                <span>Java</span>
-                <span>Spring Boot</span>
-                <span>MySQL</span>
-                <span>JPA</span>
-                <span>JWT</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 2: E-Commerce Backend API -->
-          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="200">
-            <div class="project-image">
-              <img src="images/ecommerce_backend.png" alt="E-Commerce Backend">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="project-content">
-              <h3>E-Commerce Backend API</h3>
-              <p>Scalable API for users, products, carts, orders, and admin panel. Supports order history and complex
-                logic.</p>
-              <div class="project-tech">
-                <span>Java</span>
-                <span>Spring Boot</span>
-                <span>MySQL</span>
-                <span>REST</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 3: Job Portal Backend -->
-          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="300">
-            <div class="project-image">
-              <img src="images/job_portal_api.png" alt="Job Portal Backend">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="project-content">
-              <h3>Job Portal Backend (Mini LinkedIn)</h3>
-              <p>Recruitment platform API for job posting, applications, saving jobs, and admin dashboard.</p>
-              <div class="project-tech">
-                <span>Spring Boot</span>
-                <span>MySQL</span>
-                <span>JPA</span>
-                <span>REST API</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 4: Bus Booking App -->
-          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="400">
-            <div class="project-image">
-              <img src="images/bus_booking.png" alt="Bus Booking App">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="project-content">
-              <h3>Bus Booking App</h3>
-              <p>Android app for booking bus tickets with seat selection map and history. Features secure login and
-                real-time data.</p>
-              <div class="project-tech">
-                <span>Java</span>
-                <span>Firebase</span>
-                <span>Room DB</span>
-                <span>Material UI</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 5: Freshee Cart -->
-          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="500">
-            <div class="project-image">
-              <img src="images/freshee_cart.png" alt="Freshee Cart">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="https://github.com/Indra2629/Freshee-Cart-" target="_blank" class="project-link"><i
-                      class="fab fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="project-content">
-              <h3>Freshee Cart</h3>
-              <p>Student-centric e-commerce platform for electronics and footwear. Modern dark-themed UI with cart
-                management.</p>
-              <div class="project-tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 6: InventoryPro -->
-          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="600">
-            <div class="project-image">
-              <img src="images/inventory_pro.png" alt="InventoryPro">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="https://github.com/Indra2629/InventoryPro" target="_blank" class="project-link"><i
-                      class="fab fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="project-content">
-              <h3>InventoryPro</h3>
-              <p>Web-based inventory system to track products and sales. Includes dashboards, low-stock alerts, and
-                reports.</p>
-              <div class="project-tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>GitHub Pages</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 7: Criminal Detection App -->
-          <div class="swiper-slide project-card" data-aos="fade-up" data-aos-delay="700">
-            <div class="project-image">
-              <img src="images/criminal_detection.png" alt="Criminal Detection App">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="project-content">
-              <h3>Criminal Detection App</h3>
-              <p>Face detection app comparing scan data with criminal databases. Built with Java and JSON data handling.
-              </p>
-              <div class="project-tech">
-                <span>Java</span>
-                <span>Firebase</span>
-                <span>JSON</span>
-                <span>Face API</span>
-              </div>
-            </div>
-          </div>
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <h2>Let’s Connect</h2><p class="section-subtitle">Open to connecting about data engineering, analytics, and early-career opportunities.</p>
+        <div class="social-grid">
+          <a href="mailto:indrajeetchavan137@gmail.com" class="social-box email" aria-label="Email Indrajeet"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/indrachavan" target="_blank" rel="noopener noreferrer" class="social-box linkedin" aria-label="LinkedIn profile"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          <a href="https://github.com/Indra2629" target="_blank" rel="noopener noreferrer" class="social-box github" aria-label="GitHub profile"><i class="fab fa-github" aria-hidden="true"></i></a>
         </div>
-        <div class="swiper-pagination"></div>
+        <p class="contact-details">Pune, Maharashtra, India · <a href="tel:+919325204304">+91 93252 04304</a></p>
       </div>
+    </section>
+  </main>
 
-      <!-- View All Button Container -->
-      <div class="view-all-container" data-aos="fade-up">
-        <button id="view-all-btn" class="btn-primary">View All Projects</button>
-      </div>
-
-      <!-- Hidden Grid Container for Toggle -->
-      <div id="projects-grid" class="projects-grid-view" style="display: none;"></div>
-    </div>
-  </section>
-
-  <!-- ===== Certifications ===== -->
-  <section id="certs" class="certs">
-    <div class="container" data-aos="fade-up">
-      <h2>Certifications</h2>
-      <p class="section-subtitle">Professional certifications and achievements</p>
-      <div class="cert-grid">
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>Bug Bounty Bootcamp</h3>
-            <p class="cert-issuer">Vishwakarma University • 2025</p>
-          </div>
-        </div>
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="150">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>Green Skills & AI</h3>
-            <p class="cert-issuer">Edunet / AICTE / Shell • 2025</p>
-          </div>
-        </div>
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>Online Communication & Data Security</h3>
-            <p class="cert-issuer">Wadhwani Foundation • 2025</p>
-          </div>
-        </div>
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="250">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>Android Basics in Kotlin</h3>
-            <p class="cert-issuer">Google / Udacity</p>
-          </div>
-        </div>
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>JavaScript for Beginners</h3>
-            <p class="cert-issuer">Simplilearn</p>
-          </div>
-        </div>
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="350">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>MATLAB Onramp</h3>
-            <p class="cert-issuer">MathWorks</p>
-          </div>
-        </div>
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="400">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>Firebase in a Weekend</h3>
-            <p class="cert-issuer">Coursera</p>
-          </div>
-        </div>
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="450">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>IT Fundamentals for Cybersecurity</h3>
-            <p class="cert-issuer">IBM</p>
-          </div>
-        </div>
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="500">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>Fundamentals of Computer Network Security</h3>
-            <p class="cert-issuer">University of Colorado System</p>
-          </div>
-        </div>
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="550">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>Introduction to Cybersecurity Tools & Cyberattacks</h3>
-            <p class="cert-issuer">IBM</p>
-          </div>
-        </div>
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="600">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>Encryption and Decryption using C++</h3>
-            <p class="cert-issuer">Coursera Project Network</p>
-          </div>
-        </div>
-        <div class="cert-card" data-aos="fade-up" data-aos-delay="650">
-          <i class="fas fa-certificate cert-icon"></i>
-          <div class="cert-content">
-            <h3>How to Secure your Network Device</h3>
-            <p class="cert-issuer">Coursera Project Network</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Achievements ===== -->
-  <section id="achievements" class="achievements">
-    <div class="container" data-aos="fade-up">
-      <h2>Achievements</h2>
-      <p class="section-subtitle">Key milestones and recognitions</p>
-
-      <div class="achievement-grid">
-        <div class="achievement-card">
-          <div class="achievement-icon">
-            <i class="fas fa-scroll"></i>
-          </div>
-          <div>
-            <h3>Research Paper Presentation</h3>
-            <p class="achievement-meta">14th National Conference 2024</p>
-            <p>Presented "Transforming education institute admission and placement using artificial intelligence for
-              enhanced reputation".</p>
-          </div>
-        </div>
-
-        <div class="achievement-card">
-          <div class="achievement-icon">
-            <i class="fas fa-trophy"></i>
-          </div>
-          <div>
-            <h3>Capstone Project</h3>
-            <p class="achievement-meta">Top 5 Finalist</p>
-            <p>Selected as one of the top 5 finalists for the innovative specialized capstone project at Vishwakarma
-              University.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Contact ===== -->
-  <section id="contact" class="contact">
-    <div class="container" data-aos="fade-up">
-      <h2>Contact Me</h2>
-      <p class="section-subtitle">Reach out via</p>
-
-      <div class="social-grid">
-        <!-- Email (Red) -->
-        <a href="mailto:indrajeetchavan137@gmail.com" class="social-box email">
-          <i class="fas fa-envelope"></i>
-        </a>
-
-        <!-- LinkedIn (Blue) -->
-        <a href="https://www.linkedin.com/in/indrachavan" target="_blank" class="social-box linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-
-        <!-- GitHub (White) -->
-        <a href="https://github.com" target="_blank" class="social-box github">
-          <i class="fab fa-github"></i>
-        </a>
-
-        <!-- WhatsApp (Green) -->
-        <a href="https://wa.me/919325204304" target="_blank" class="social-box whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <p>&copy; <span id="year"></span> Indrajeet Chavan. All rights reserved.</p>
-        <div class="footer-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
+  <footer><div class="container footer-content"><p>&copy; <span id="year"></span> Indrajeet S. Chavan</p><div class="footer-links"><a href="#home">Home</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></div></footer>
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <script>
-    AOS.init();
-
-    var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      speed: 1000,
-      coverflowEffect: {
-        rotate: 30,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      loop: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      on: {
-        click: function (swiper, event) {
-          const clickedSlide = swiper.clickedSlide;
-          if (!clickedSlide) return;
-
-          // Check if the click was on a link icon directly - let it handle itself
-          if (event.target.closest('.project-link')) return;
-
-          // Otherwise, find the link inside the slide and trigger it
-          const link = clickedSlide.querySelector('.project-link');
-          if (link) {
-            const href = link.getAttribute('href');
-            if (href && href !== "#" && href !== "") {
-              window.open(href, '_blank');
-            } else {
-              // We need to trigger the toast. Accessing the function from global scope might need care.
-              // Since showToast is inside DOMContentLoaded, we should expose it or redefine logic.
-              // For simplicity, we'll dispatch a custom event or just look for the toast function if global.
-              // Actually, simplest is to replicate the toast logic here or make showToast global.
-              const toast = document.getElementById("toast");
-              if (toast) {
-                toast.innerText = "🚧 Project Coming Soon! Work in Progress.";
-                toast.className = "show";
-                setTimeout(function () { toast.className = toast.className.replace("show", ""); }, 3000);
-              }
-            }
-          }
-        },
-      }
-    });
-
-    // View All Projects Toggle Logic
-    const viewAllBtn = document.getElementById('view-all-btn');
-    const swiperContainer = document.querySelector('.mySwiper');
-    const projectsGrid = document.getElementById('projects-grid');
-    let isGridView = false;
-
-    viewAllBtn.addEventListener('click', () => {
-      isGridView = !isGridView;
-
-      if (isGridView) {
-        // Switch to Grid View
-        swiperContainer.style.display = 'none';
-        projectsGrid.style.display = 'grid';
-        viewAllBtn.textContent = 'View Slider';
-
-        // Clone slides if not already populated
-        if (projectsGrid.children.length === 0) {
-          const slides = document.querySelectorAll('.swiper-slide');
-          slides.forEach(slide => {
-            // Clone the card
-            const clone = slide.cloneNode(true);
-            // Remove Swiper specific classes and styles
-            clone.classList.remove('swiper-slide', 'swiper-slide-active', 'swiper-slide-next', 'swiper-slide-prev', 'swiper-slide-visible');
-            clone.style.width = '';
-            clone.style.transform = '';
-            clone.style.transition = '';
-            projectsGrid.appendChild(clone);
-          });
-        }
-      } else {
-        // Switch back to Slider View
-        swiperContainer.style.display = 'block';
-        projectsGrid.style.display = 'none';
-        viewAllBtn.textContent = 'View All Projects';
-        // Re-initialize or update swiper if needed (often auto-handled)
-        swiper.update();
-      }
-    });
-  </script>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Toast Notification Logic
-      const toast = document.getElementById("toast");
-
-      function showToast(message) {
-        toast.innerText = message;
-        toast.className = "show";
-        setTimeout(function () { toast.className = toast.className.replace("show", ""); }, 3000);
-      }
-
-      // Add click event to all 'Coming Soon' links
-      const projectLinks = document.querySelectorAll('.project-link');
-      projectLinks.forEach(link => {
-        link.addEventListener('click', function (e) {
-          if (this.getAttribute('href') === "#" || this.getAttribute('href') === "") {
-            e.preventDefault();
-            showToast("🚧 Project Coming Soon! Work in Progress.");
-          }
-        });
-      });
-
-
-    });
-  </script>
-
-  <!-- Toast Notification Structure -->
-  <div id="toast">🚧 Project Coming Soon! Work in Progress.</div>
 </body>
-
 </html>

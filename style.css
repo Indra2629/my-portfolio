@@ -1006,6 +1006,82 @@ footer {
 }
 
 /* Responsive Design */
+.hero-subtitle {
+  color: #67e8f9 !important;
+  font-size: clamp(1.1rem, 2.6vw, 1.45rem) !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem !important;
+}
+
+.hero-description {
+  max-width: 680px;
+  margin: 0 auto 2rem !important;
+  color: #cbd5e1 !important;
+  font-size: 1.05rem !important;
+}
+
+.hero-badge { display: inline-flex; }
+.hero-badge br { display: none; }
+
+.about h2, .certs h2, .achievements h2, .contact h2 { color: var(--heading-color); }
+.about h2, .achievements h2, .contact h2 { margin-bottom: 2rem; }
+.about .section-subtitle, .certs .section-subtitle, .contact .section-subtitle { color: #94a3b8; }
+
+.education-card {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  margin-top: 1rem;
+  color: var(--text-color);
+}
+.education-card h4 { color: var(--primary-color); font-size: 1.15rem; margin-bottom: 0.5rem; }
+.education-card p { margin-top: 0.35rem; }
+.education-card .education-meta { color: #94a3b8; }
+.skills > h3 { text-align: left; margin: 2.5rem 0 1rem; font-size: 1.5rem; color: #fff; }
+.skills > h4 { text-align: left; margin: 1.5rem 0 0.75rem; color: #67e8f9; font-size: 1rem; }
+.skills-grid { justify-content: flex-start; margin-bottom: 1rem; }
+
+.projects .section-subtitle { color: #94a3b8; margin-bottom: 2rem; }
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 1.5rem;
+  align-items: stretch;
+}
+.project-card { display: flex; flex-direction: column; height: 100%; }
+.project-art {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.75rem;
+  color: #e0f2fe;
+  background: radial-gradient(circle at 75% 25%, rgba(34, 211, 238, 0.25), transparent 35%), linear-gradient(135deg, #172554, #0f172a 65%, #164e63);
+  border-bottom: 1px solid var(--border-color);
+}
+.project-art i { font-size: 2.7rem; color: #67e8f9; }
+.project-art span, .project-kicker { color: #67e8f9; font-size: 0.75rem; letter-spacing: 0.11em; font-weight: 700; }
+.project-content { padding: 1.5rem; display: flex; flex-direction: column; flex: 1; }
+.project-content h3 { font-size: 1.25rem; }
+.project-content p { font-size: 0.92rem; }
+.project-content .project-kicker { margin: 0 0 0.6rem; line-height: 1.4; }
+.project-tech { margin-top: auto; }
+.project-tech span { padding: 0.4rem 0.7rem; font-size: 0.78rem; }
+.future-note { text-align: center; color: #94a3b8; margin: 2rem 0 0; }
+.future-note i { color: var(--primary-color); margin-right: 0.4rem; }
+.certs { background: #111827; color: var(--text-color); }
+.certs h2 { color: #fff; }
+.certs .section-subtitle { color: #94a3b8; }
+.achievements { background: #0b1120; }
+.achievements h2 { color: #fff; }
+.contact-details { color: #94a3b8; margin-top: 2rem; }
+.contact-details a { color: #67e8f9; text-decoration: none; }
+.contact-details a:hover { text-decoration: underline; }
+.social-box.linkedin { bottom: auto; }
+
 @media (max-width: 768px) {
   header {
     padding: 1rem 0;
@@ -1119,6 +1195,11 @@ footer {
   .hero {
     padding-top: 120px;
   }
+
+  .nav { gap: 0.75rem; }
+  nav ul { gap: 0.2rem 0.5rem; }
+  nav a { padding: 0.5rem; font-size: 0.85rem; }
+  .project-grid { grid-template-columns: 1fr; }
 
   .hero h2 {
     font-size: 2rem;
